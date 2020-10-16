@@ -1,0 +1,37 @@
+.main-form {
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+}
+.main-select {
+    padding: 10px;
+    border-radius: 7px;
+    background: none;
+    text-align-last:center;
+}
+.main-select:focus {
+    outline: none;
+    border-color: lightskyblue;
+} 
+.main-input {
+    padding: 10px;
+    border-radius: 7px;
+}
+.main-input:focus {
+    outline: none;
+    border-color: lightskyblue;
+}
+.save-btn {
+    width: 75px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: none;
+    border-radius: 5px;
+    border-color: lightslategrey;
+}
